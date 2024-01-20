@@ -15,12 +15,13 @@ Source: https://www.youtube.com/watch?v=aWKrL4z5H6w&t=244s
     - In VS Code, Create new Folder/Project  
     - Click View and Open New terminal   
     - Execute follwing command in the terminal to setup environment  
+      <ul>
       conda create -p venv python==3.9 -y  
       conda info --envs  #Ensure the o/p has venv listed  
       python.exe -m pip install --upgrade pip  
       python.exe -m pip install --upgrade pip  
       pip install -r requirements.txt  
       pip install ipykernel  
-    - 
+     </ul>
 
 
